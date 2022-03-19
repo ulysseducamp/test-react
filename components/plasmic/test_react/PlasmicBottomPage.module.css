@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: var(--token-LboZFJjHAy9fIh);
+  position: relative;
+  min-width: 0;
+  padding: 8px;
+  border-top: 1px solid var(--token-42gScezBOc_iqF);
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  color: var(--token-42gScezBOc_iqF);
+  text-align: center;
+  min-width: 0;
+}

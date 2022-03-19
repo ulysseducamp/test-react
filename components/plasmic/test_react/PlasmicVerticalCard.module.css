@@ -1,0 +1,102 @@
+.root {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root > :global(.__wab_flex-container) > picture > img,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+  margin-top: 20px;
+}
+.img__eiZK {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 4px;
+}
+.img__eiZK > picture > img {
+  object-fit: cover;
+}
+.img__eiZK > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+.freeBox__jgLe8 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.freeBox___00MeS {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.freeBox__fi4Fy {
+  display: flex;
+  position: relative;
+}
+.slotTargetSlot {
+  color: var(--token-LboZFJjHAy9fIh);
+  font-family: var(--token-qyViDwqROhdqnz);
+  font-size: 24px;
+  font-weight: 500;
+}
+.freeBox__pp8N0 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.freeBox__cU9H0 {
+  display: flex;
+  position: relative;
+}
+.slotTargetSlot2 {
+  font-size: 20px;
+  font-family: var(--token-qyViDwqROhdqnz);
+  color: var(--token-42gScezBOc_iqF);
+}
+.freeBox___0K0C {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.freeBox__kCoyy {
+  display: flex;
+  position: relative;
+}
+.slotTargetSlot3 {
+  font-size: 20px;
+  font-family: var(--token-qyViDwqROhdqnz);
+  color: var(--token-LboZFJjHAy9fIh);
+}
